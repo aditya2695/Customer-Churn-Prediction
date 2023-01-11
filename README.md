@@ -13,6 +13,18 @@ The goal of this project is to accurately predict which customers are at risk of
 The performance of the model was evaluated using metrics such as accuracy, precision, recall, and AUC-ROC. The model achieved a good performance, which demonstrates the feasibility of using machine learning to predict customer churn. This project can be a valuable tool for Swan-Teleco to understand the factors that contribute to customer churn and take steps to prevent it, thus improving customer retention and overall business.
 
 
+### EDA
+
+There are a few insights that can be derived from the distribution of the features in the dataset:
+
+    The Zip Code feature appears to be evenly distributed, with no clear outliers or anomalies.
+    The Latitude and Longitude features have a fairly narrow range, with the majority of customers located within a small geographic area.
+    The Tenure Months feature has a relatively wide range, with customers having been subscribers for anywhere from 1 to 72 months. The median of Tenure Months is 29, which indicates that half of the customers have been subscribers for less than 29 months, the other half for more than 29 months.
+    The Monthly Charges feature also has a wide range, with customers paying anywhere from 18.25 to 118.75 dollars per month.
+    The Churn Value feature has a mean of around 0.27, which means that around 27% of the customers in the dataset have churned.
+
+In general, the dataset seems to be relatively evenly distributed across all features, except for the Churn Value where it has a mean of 0.27, indicating that a considerable percentage of the customer base has churned. Additionally, the distribution of Tenure Months suggest that customer's tenure is diverse, with half of the customers having been subscribers for less than 29 months.
+
 ### Evaluation
 
 <ul>
