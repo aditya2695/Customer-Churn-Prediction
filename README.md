@@ -54,26 +54,28 @@ In general, the dataset seems to be relatively evenly distributed across all fea
 </tr>
 
 <tr>
-    <td>Base Model</td>
-    <td>0.83</td>
-    <td>0.40</td>
-    <td>0.24</td>
-    <td>0.30</td>
+    <td>RF_model1</td>
+    <td>0.73</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>0.0</td>
+</tr>
+
+
+<tr>
+    <td>RF_model2(using balanced dataset)</td>
+    <td>0.75</td>
+    <td>0.70</td>
+    <td>0.72</td>
+    <td>0.71</td>
 </tr>
 
 <tr>
-    <td>LR model</td>
-    <td>0.75</td>
-    <td>0.70</td>
-    <td>0.72</td>
+    <td>LR model(using balanced dataset)</td>
+    <td>0.77</td>
+    <td>0.73</td>
     <td>0.71</td>
-</tr>
-<tr>
-    <td>RF_model</td>
-    <td>0.75</td>
-    <td>0.70</td>
     <td>0.72</td>
-    <td>0.71</td>
 </tr>
 </table>
 
