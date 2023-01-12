@@ -1,7 +1,8 @@
 # Customer Churn Prediction
  
-<div style="text-align:center;">
+<div class="row" style="text-align:center;">
     <img src="images/cover_pic.jpg" width="500">
+    <img src="images/logo.png" >
 </div>
 
 #### Introduction
@@ -61,18 +62,18 @@ In general, the dataset seems to be relatively evenly distributed across all fea
 </tr>
 
 <tr>
-    <td>RF_model1</td>
+    <td>LR model</td>
+    <td>0.75</td>
+    <td>0.70</td>
+    <td>0.72</td>
     <td>0.71</td>
-    <td>0.64</td>
-    <td>0.61</td>
-    <td>0.68</td>
 </tr>
 <tr>
-    <td>RF_model2</td>
-    <td>0.71</td>
-    <td>0.66</td>
+    <td>RF_model</td>
+    <td>0.75</td>
     <td>0.70</td>
-    <td>0.68</td>
+    <td>0.72</td>
+    <td>0.71</td>
 </tr>
 </table>
 
@@ -80,14 +81,14 @@ In general, the dataset seems to be relatively evenly distributed across all fea
 
 #### Feature Importances
 
- <div style="text-align:center;">
-    <img src="images/importances.png">
-</div>
+
+<img src="images/factors.png">
+
 
 #### AUC-ROC
 
- <div style="text-align:center;">
-    <img src="images/ROC.png">
-</div>
+
+<img src="images/AUC.png" width="700">
+
 AUC-ROC values range from 0 to 1, with a value of 1 indicating a perfect classifier, and a value of 0.5 indicating the performance of a random classifier. So, in this case, the classifier performs better than a random classifier and the result is decent.
 
